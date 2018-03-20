@@ -1,0 +1,20 @@
+body {background-color:FloralWhite;margin:20px;padding:0;font-family:sans-serif;}
+.row:after {clear:both;content:"";display:table;}
+.title {color:blue;font-family:"Verdana";font-style:italic;font-size:36px;margin-top:8px;margin-bottom:24px;
+text-align:center;}
+.winner{font-size:24px;margin-bottom:15px;text-align:center;}
+.score_x{font-size:24px;font-family:"Verdana";text-align:center;margin-top:24px;}
+.score_o{font-size:24px;font-family:"Verdana";text-align:center;}
+.cell {background:FloralWhite;border:3px solid #999;border-radius:8px;float:left;font-size:18px;
+	line-height:100px;height:100px;width:100px;margin-right:-1px;margin-top:-1px;padding:0;text-align:center;}
+.cell2 {background:#87CEFA;border: 3px solid #999;border-radius:8px;float: left;font-size: 18px;line-height: 100px;
+	height:100px;width:100px;margin-right:-1px;margin-top:-1px;padding:0;text-align:center;}
+.cell:focus {outline:none;}
+.cell2:focus {outline:none;}
+.button {margin-top:20px;margin-left:22px;border-radius:10px;border-style:ridge;font-size:18px;text-align:center;}
+.button:hover {background-color:#87CEFA;}	/* color for just text, background-color for whole button*/
+.button:focus{outline:0;}
+.resetScore {margin-bottom:16px;text-align:center;}
+.newGame {text-align:center;}
+.play {display:flex;flex-direction:row;justify-content:center;}
+.info {margin-left:20px;}
